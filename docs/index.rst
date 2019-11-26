@@ -13,11 +13,3 @@ Some text here...
    
    prerequisites.rst
    getting-started.rst
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
