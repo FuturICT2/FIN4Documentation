@@ -22,3 +22,11 @@ sphinx-build -b gettext . _build/gettex
 ```
 
 Then run the `update` command again.
+
+## Build locally
+
+Run in `docs`:
+
+```sh
+make html
+```
