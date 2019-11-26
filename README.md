@@ -18,7 +18,7 @@ sphinx-intl update -p _build/gettext -l de
 If you haven't done so before or if it doesn't update properly, delete the `_build` folder and run this `build` command:
 
 ```sh
-sphinx-build -b gettext . _build/gettex
+sphinx-build -b gettext . _build/gettext
 ```
 
 Then run the `update` command again.
