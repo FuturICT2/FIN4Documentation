@@ -14,3 +14,6 @@ The basic idea is: anyone can create tokens and anyone can claim these tokens. O
    
    prerequisites.rst
    getting-started.rst
+   create-tokens.rst
+   claim-tokens.rst
+   functionality.rst
