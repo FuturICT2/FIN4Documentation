@@ -19,7 +19,12 @@ Once you have a digital wallet, either restore an existing account or follow the
 
 After having created your new account, don't forget to switch to the *Rinkeby Test Network*. By default you will be on the *Main Ethereum Network*.
 
-Ether
-^^^^^
-TODO
-How to get Ether
+Getting Ether
+^^^^^^^^^^^^^
+
+After installing a digital wallet and creating an account, the last step before being ready to use FIN4Xplorer is to get some Rinkeby Ether (ETH). All transactions on the Ethereum (test) network cost Ether, the so called gas fee. The price depends on the current workload of the network as well as how many additions/changes to data on smart contracts your transaction causes. On test networks, Ether can be obtained for free from "faucets". On the main network, Ether has either to be earned by being an active participant in the network (running a full node and doing mining), has to be traded or has to be bought on exchanges.
+
+For obtaining Ether on the Rinkeby test network we suggest two options:
+
+- Using the "authenticated faucet" at `faucet.rinkeby.io <https://faucet.rinkeby.io/>`_ requires a social media post
+- We build our own little faucet server that gives a small amount of ETH per click if the user has less then a threshold value: click *Request Ether* on the landing page of `demo.finfour.net <https://demo.finfour.net/>`_ and wait a little until you get a confirmation message.
