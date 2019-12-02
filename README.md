@@ -30,3 +30,21 @@ Run in `docs`:
 ```sh
 make html
 ```
+
+## During writing: build upon saving
+
+A nice convenience for automatically building locally upon saving a `.rst` file is using a "Save and Run" plugin like [this](https://marketplace.visualstudio.com/items?itemName=wk-j.save-and-run) one for Visual Studio Code.
+
+Add to `settings.json`:
+```json
+"saveAndRun": {
+    "commands": [
+        {
+            "match": "\\.rst$",
+            "cmd": "make -C ~/git/FIN4Documentation/docs html",
+            "useShortcut": false,
+            "silent": false
+        }
+    ]
+}
+```
