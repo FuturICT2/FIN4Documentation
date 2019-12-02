@@ -1,7 +1,9 @@
+.. include:: utils.rst
+
 Claim tokens
 =============
 
---> Middle icon *Claims* in the bottom navigation bar (TODO)
+:raw-html:`&rarr;` :gray:`Middle icon Claims in the bottom navigation bar`
 
 Tokens that have been created as outlined in the section about creating tokens (TODO ref), can be claimed.
 
