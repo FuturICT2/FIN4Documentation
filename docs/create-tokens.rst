@@ -1,9 +1,13 @@
-.. include:: utils.rst
+.. comment include:: utils.rst
 
 Create tokens
 =============
 
-:raw-html:`&rarr;` :gray:`Middle icon Tokens in the bottom navigation bar`
+|
+.. image:: images/BottomBar-Tokens.png
+   :scale: 80%
+   :align: center
+|
 
 The ability for anyone to create new tokens on the FIN4Xplorer plattform is at the heart of its concept. Once a token is created, it can be claimed by anyone. A successful claim results in having a balance on the respective token. Since we base our token contracts on the `ERC20 standard <https://en.wikipedia.org/wiki/Ethereum#Development_governance_and_EIP>`_ this balance will show up on any Ethereum digital wallet app that supports the ERC20 standard. Note that also there you would have to switch to the Rinkeby testnet for now.
 

@@ -1,9 +1,11 @@
-.. include:: utils.rst
-
 Claim tokens
 =============
 
-:raw-html:`&rarr;` :gray:`Middle icon Claims in the bottom navigation bar`
+|
+.. image:: images/BottomBar-Claims.png
+   :scale: 80%
+   :align: center
+|
 
 Tokens that have been created as outlined in the section about creating tokens (TODO ref), can be claimed.
 
