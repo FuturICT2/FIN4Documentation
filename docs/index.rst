@@ -19,4 +19,4 @@ The basic idea is: anyone can create tokens and anyone can claim these tokens. O
    dapp-overview.rst
    create-tokens.rst
    claim-tokens.rst
-   functionality.rst
+   more-functionalities.rst
