@@ -1,25 +1,29 @@
 More functionalities
 ====================
 
-Messaging
-^^^^^^^^^
-TODO
-Your messages, Message user
+Wallet
+~~~~~~
 
 Transfer Tokens
 ^^^^^^^^^^^^^^^
-TODO
 Careful: not getting it back unless sent back
 Different to GOV-delegation in TCR
 
+
+Settings
+~~~~~~~~
+
 User Groups
 ^^^^^^^^^^^
-TODO
 
 Token collections
 ^^^^^^^^^^^^^^^^^
-TODO
 
-Curated Tokens
-^^^^^^^^^^^^^^
-TODO
+
+Inbox
+~~~~~
+Your messages, Message user
+
+
+Token curation
+~~~~~~~~~~~~~~
