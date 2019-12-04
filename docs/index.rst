@@ -16,6 +16,7 @@ The basic idea is: anyone can create tokens and anyone can claim these tokens. O
    :maxdepth: 2
    
    getting-started.rst
+   dapp-overview.rst
    create-tokens.rst
    claim-tokens.rst
    functionality.rst
