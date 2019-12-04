@@ -18,13 +18,13 @@ The smart contracts are written in `Solidity <https://en.wikipedia.org/wiki/Soli
 
 Rinkeby is one of a few Ethereum test networks and behaves similar to the main network. The difference is, that Ether, the "currency" used to pay for transactions, is not worth "real" money. On the main network Ether has to be earned via mining or bought on trading plattforms. On Rinkeby it can be requested from "faucets" for free, see section `Getting Ether`_.
 
-The frontend is a `React app <https://create-react-app.dev/>`_ that uses `drizzle <https://www.trufflesuite.com/drizzle>`_ from truffle to connect to the smart contracts on the Ethereum blockchain.
-
 During development we use `Ganache <https://www.trufflesuite.com/ganache>`_ from truffle locally to simulate an Ethereum blockchain.
 
 For storing media files that certain proof types require, we use `IPFS <https://ipfs.io/>`_ via the `Infura <https://infura.io/>`_ gateway.
 
 As digital wallet to connect desktop or mobile browsers to the Ethereum network we use `MetaMask <https://metamask.io/>`_, more about that in the following section `Digital Wallet`_.
+
+The frontend is a `React app <https://create-react-app.dev/>`_ that uses `drizzle <https://www.trufflesuite.com/drizzle>`_ from truffle to connect to the smart contracts on the Ethereum blockchain. For now we don't have native mobile apps. Mobile users have to use DApp browser apps and navigate to the same site as desktop users. The layout of the fronted works well on different screen sizes as relatively narrow boxes are arranged per page. Depending on the width of the browser window, they will either be rendered next to each other or below one another.
 
 Digital Wallet
 ^^^^^^^^^^^^^^
