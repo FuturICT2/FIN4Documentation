@@ -23,7 +23,7 @@ The effort put into creating a token can range from a quick 1-min-clicktrough to
 
 The last two will import a token creation draft showing up at the bottom of the box. The first option will take you directly into the token creation wizard. It consists of 5 steps concerning the way you want to construct token: Identity, Design, Actions, Minting and Proving. In each step, an info box can be opened that provides explanation to the options in each step.
 
---> TODO screenshots of steps
+--> **TODO** screenshots of steps
 
 Note that at any point you can leave the wizard and your progess will be stored as draft that you could download, and reimport later, as JSON.
 

@@ -7,7 +7,7 @@ Claim tokens
    :align: center
 |
 
-Tokens that have been created as outlined in the section about creating tokens (TODO ref), can be claimed.
+Tokens that have been created as outlined in `Create tokens <create-tokens.html>`_, can be claimed.
 
 .. image:: images/ClaimTokens.png
    :scale: 35%
@@ -34,3 +34,9 @@ Once all proofs are provided and approved, the claim appears as green and the cl
 
 .. image:: images/Wallet.png
    :scale: 35%
+
+Claims under *My previous claims* can be in one of three stages:
+
+- In red and the prompt to *Submit proof*, this is the default after submitting a new claim
+- In green, the approved state, which also means that a balance has to be minted to the claimer
+- In gray, the rejected state, if one or more of the proofs got manually or automatically rejected
