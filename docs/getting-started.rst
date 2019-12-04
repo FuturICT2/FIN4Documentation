@@ -1,13 +1,33 @@
 Getting started
 ===============
 
-Digital Wallet
-^^^^^^^^^^^^^^
+Technical infrastructure
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 **FIN4Xplorer** consists of two parts:
 
-- Smart contracts that are deployed to the `Ethereum network <https://ethereum.org/>`_ - the `Rinkeby test network <https://www.rinkeby.io/>`_ for now. The entire functionality is in these smart contracts. Everything could also be done by interacting with them via a command line.
-- A "frontend" in the form of a *Web DApp* that acts as an user interface for convenient interaction with said smart contracts. Web apps run directly in the browser, both on desktop computers and on smartphones. DApp stands for distributed app, meaning it runs on a blockchain.
+- Smart contracts that are deployed to the Ethereum blockchain. The entire functionality is in these smart contracts. Everything could also be done by interacting with them via a command line.
+- A frontend or client in the form of a *Web DApp* that acts as an user interface for convenient interaction with said smart contracts. Web apps run directly in the browser, both on desktop computers and on smartphones. DApp stands for distributed app, meaning they connect to a blockchain.
+
+Infrastructure, programming languages and frameworks used
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+We decided to use the `Ethereum <https://ethereum.org/>`_ blockchain for now. It satisfies our requirements of an open-source and public blockchain that supports smart contracts. Furthermore it is used widely these days and therefore plenty support resources are available.
+
+The smart contracts are written in `Solidity <https://en.wikipedia.org/wiki/Solidity>`_ and we deploy them via `truffle <https://www.trufflesuite.com/truffle>`_ to the `Rinkeby test network <https://www.rinkeby.io/>`_.
+
+Rinkeby is one of a few Ethereum test networks and behaves similar to the main network. The difference is, that Ether, the "currency" used to pay for transactions, is not worth "real" money. On the main network Ether has to be earned via mining or bought on trading plattforms. On Rinkeby it can be requested from "faucets" for free, see section `Getting Ether`_.
+
+The frontend is a `React app <https://create-react-app.dev/>`_ that uses `drizzle <https://www.trufflesuite.com/drizzle>`_ from truffle to connect to the smart contracts on the Ethereum blockchain.
+
+During development we use `Ganache <https://www.trufflesuite.com/ganache>`_ from truffle locally to simulate an Ethereum blockchain.
+
+For storing media files that certain proof types require, we use `IPFS <https://ipfs.io/>`_ via the `Infura <https://infura.io/>`_ gateway.
+
+As digital wallet to connect desktop or mobile browsers to the Ethereum network we use `MetaMask <https://metamask.io/>`_, more about that in the following section `Digital Wallet`_.
+
+Digital Wallet
+^^^^^^^^^^^^^^
 
 The only, yet significant, difference a visitor of a Web DApp experiences compared to a Web App, is the need for a "bridge to the blockchain". Also called a digital wallet. Its first task is to establish the connection to the blockchain network - either via a `full node <https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/#full-nodes>`_ that users run themselves or via a gateway service like Infura. Its second task is to pop up whenever the user seeks to write data to the blockchain and enable the convenient signing of such transactions with the users private key.
 
