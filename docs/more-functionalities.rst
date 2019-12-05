@@ -87,7 +87,26 @@ If you get a new message while being on the DApp, the notification bell in the t
 Token curation
 ~~~~~~~~~~~~~~
 
-TODO
-
 .. image:: images/TokenCuration.png
    :scale: 80%
+
+Listing
+^^^^^^^
+
+.. image:: images/Listing.png
+   :scale: 30%
+
+.. image:: images/TokensWithOPAT.png
+   :scale: 35%
+
+Management
+^^^^^^^^^^
+
+.. image:: images/Management.png
+   :scale: 30%
+
+Parameters
+^^^^^^^^^^
+
+.. image:: images/Parameters.png
+   :scale: 35%
