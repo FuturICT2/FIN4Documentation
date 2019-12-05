@@ -13,6 +13,8 @@ The two main subsites are accessible in the bottom bar: `Tokens`_ and `Claims`_.
 
 The three icons in the top bar are for showing the users QR code, reloading the page and for getting notified about new messages.
 
+The various boxes shown are explained in the chapter `More functionalities <more-functionalities.html>`_.
+
 Tokens
 ~~~~~~
 
