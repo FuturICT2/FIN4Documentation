@@ -23,6 +23,11 @@ Under *Tokens* new tokens can be created as described in `Create tokens <create-
 .. image:: images/Tokens.png
    :scale: 60%
 
+Clicking on *View* on a Token brings up a dedicated site showing details about the design and some performance statistics of the token.
+
+.. image:: images/TokenView.png
+   :scale: 35%
+
 Claims
 ~~~~~~
 
