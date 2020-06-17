@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @digisus, @benjaminaaron
+# This file is distributed under the same license as the FIN4Xplorer
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIN4Xplorer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-17 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../dapp-overview.rst:2
+msgid "Application overview"
+msgstr ""
+
+#: ../../dapp-overview.rst:5
+msgid "Home"
+msgstr ""
+
+#: ../../dapp-overview.rst:7
+msgid "*Home* acts as landing page and is the central place of the DApp."
+msgstr ""
+
+#: ../../dapp-overview.rst:12
+msgid ""
+"The two main subsites are accessible in the bottom bar: `Tokens`_ and "
+"`Claims`_."
+msgstr ""
+
+#: ../../dapp-overview.rst:14
+msgid ""
+"The three icons in the top bar are for showing the users QR code, "
+"reloading the page and for getting notified about new messages."
+msgstr ""
+
+#: ../../dapp-overview.rst:16
+msgid ""
+"The various boxes shown are explained in the chapter `More "
+"functionalities <more-functionalities.html>`_."
+msgstr ""
+
+#: ../../dapp-overview.rst:19
+msgid "Tokens"
+msgstr ""
+
+#: ../../dapp-overview.rst:21
+msgid ""
+"Under *Tokens* new tokens can be created as described in `Create tokens "
+"<create-tokens.html>`_. On the right side all existing tokens are listed "
+"with direct links to claiming them or to view more details about them."
+msgstr ""
+
+#: ../../dapp-overview.rst:26
+msgid ""
+"Clicking on *View* on a Token brings up a dedicated site showing details "
+"about the design and some performance statistics of the token."
+msgstr ""
+
+#: ../../dapp-overview.rst:32
+msgid "Claims"
+msgstr ""
+
+#: ../../dapp-overview.rst:34
+msgid ""
+"The layout of the *Claims* site is analog to the *Tokens* site: "
+"submitting new claims can be done on the left side and a list of previous"
+" claims is displayed on the right side. If users get to this site via a "
+"*Claim*-Link on a token directly, the *Token Type* will be prefilled. "
+"More info about the claiming process can be found in `Claim tokens "
+"<claim-tokens.html>`_."
+msgstr ""
+

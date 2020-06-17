@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @digisus, @benjaminaaron
+# This file is distributed under the same license as the FIN4Xplorer
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIN4Xplorer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-17 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../claim-tokens.rst:2
+msgid "Claim tokens"
+msgstr ""
+
+#: ../../claim-tokens.rst:10
+msgid ""
+"Tokens that have been created as outlined in `Create tokens <create-"
+"tokens.html>`_, can be claimed."
+msgstr ""
+
+#: ../../claim-tokens.rst:15
+msgid ""
+"Submitting a claim is the first step to obtaining a balance on the token "
+"in question. Once made, it shows up under *My previous claims*. Claims "
+"there can be in one of three stages:"
+msgstr ""
+
+#: ../../claim-tokens.rst:17
+msgid ""
+"In red with a prompt to *Submit proof*, this is the default after "
+"submitting a new claim"
+msgstr ""
+
+#: ../../claim-tokens.rst:18
+msgid ""
+"In green, the approved state, which also means that a balance has to be "
+"minted to the claimer"
+msgstr ""
+
+#: ../../claim-tokens.rst:19
+msgid ""
+"In gray, the rejected state, if one or more of the proofs got manually or"
+" automatically rejected"
+msgstr ""
+
+#: ../../claim-tokens.rst:25
+msgid "Proving"
+msgstr ""
+
+#: ../../claim-tokens.rst:27
+msgid ""
+"For a claim to be successful, all the proofs specified by the token "
+"creator have to be provided and get approved - automatically or by the "
+"chosen person, group or sensor. A proof submission site might look like "
+"this."
+msgstr ""
+
+#: ../../claim-tokens.rst:32
+msgid ""
+"Here, a proof is shown (*ClaimableOnlyNTimes*) that didn't have to be "
+"initated manually. It belongs to the category of proofs that "
+"automatically give their approval or rejection once a claim is made."
+msgstr ""
+
+#: ../../claim-tokens.rst:34
+msgid ""
+"Once all proofs are provided and approved, the claim appears as green and"
+" the claimer gets a balance on this token."
+msgstr ""
+
+#: ../../claim-tokens.rst:42
+msgid ""
+"Once any proof of a claim is rejected, the entire claim gets rejected. It"
+" is not possible to recover this claim by resubmitting proofs - a new "
+"claim has to be made if the user wants to try again."
+msgstr ""
+

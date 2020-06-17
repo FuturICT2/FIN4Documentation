@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @digisus, @benjaminaaron
+# This file is distributed under the same license as the FIN4Xplorer
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIN4Xplorer \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-17 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../create-tokens.rst:4
+msgid "Create tokens"
+msgstr ""
+
+#: ../../create-tokens.rst:12
+msgid ""
+"The ability for anyone to create new tokens on the FIN4Xplorer plattform "
+"is at the heart of its concept. Once a token is created, it can be "
+"claimed by anyone. A successful claim results in having a balance on the "
+"respective token. Since we base our token contracts on the `ERC-20 "
+"standard "
+"<https://en.wikipedia.org/wiki/Ethereum#Development_governance_and_EIP>`_"
+" this balance will show up on any Ethereum digital wallet app that "
+"supports the ERC-20 standard. Note that also in such apps you have to "
+"switch to the Rinkeby testnet."
+msgstr ""
+
+#: ../../create-tokens.rst:15
+msgid "Token creation wizard"
+msgstr ""
+
+#: ../../create-tokens.rst:21
+msgid ""
+"The effort put into creating a token can range from a quick 1-min-"
+"clicktrough to a lengthy eloborate planning in a multi-disciplinary team."
+" The possible entry points for the token creation process are:"
+msgstr ""
+
+#: ../../create-tokens.rst:23
+msgid "Creating a new token from scratch"
+msgstr ""
+
+#: ../../create-tokens.rst:24
+msgid "Uploading a token draft in JSON format"
+msgstr ""
+
+#: ../../create-tokens.rst:25
+msgid "Copying an existing token design as template"
+msgstr ""
+
+#: ../../create-tokens.rst:27
+msgid ""
+"The last two will import a token creation draft showing up at the bottom "
+"of the box. The first option will take you directly into the token "
+"creation wizard. It consists of 5 steps: *Identity*, *Design*, *Actions*,"
+" *Minting* and *Proving*. In each step, an info box can be opened that "
+"provides explanations."
+msgstr ""
+
+#: ../../create-tokens.rst:33
+msgid ""
+"Note that at any point you can leave the wizard and your progess will be "
+"stored as draft. Drafts can be used to resume the process later on or to "
+"download, share and import them."
+msgstr ""
+
+#: ../../create-tokens.rst:35
+msgid ""
+"Once the 5 steps are completed, the token can be created on the "
+"blockchain. One ore more transactions have to be confirmed for that. One "
+"for the token-creation itself and one for each proof that has parameters."
+" Until all proof-parameterization transactions are confirmed, the token "
+"will remain in a disabled state."
+msgstr ""
+
