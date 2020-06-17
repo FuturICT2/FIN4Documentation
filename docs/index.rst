@@ -20,3 +20,5 @@ The basic idea is: anyone can create tokens and anyone can claim these tokens. O
    create-tokens.rst
    claim-tokens.rst
    more-functionalities.rst
+
+The `FIN4Documentation repository <https://github.com/FuturICT2/FIN4Documentation/blob/main/LICENSE>`_ that this documentation is being build from is licensed under "Creative Commons Attribution Share Alike 4.0 International" (CC-BY-SA-4.0). Both the `FIN4Xplorer repository <https://github.com/FuturICT2/FIN4Xplorer/blob/main/LICENSE>`_ as well as the `FIN4Contracts repository <https://github.com/FuturICT2/FIN4Contracts/blob/main/LICENSE>`_ are licensed under "GNU Affero General Public License v3.0" (AGPL-3.0).
