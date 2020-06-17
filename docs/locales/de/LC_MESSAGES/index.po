@@ -45,7 +45,7 @@ msgid ""
 "that token. We say someone \"gets tokens\", which basically means that "
 "that persons public address gets an entry in the balance-sheet on the "
 "respective token with a positive number."
-msgstr ""
+msgstr "Die Grundidee ist..."
 
 #~ msgid "Indices and tables"
 #~ msgstr "Indizes und Tabellen"
