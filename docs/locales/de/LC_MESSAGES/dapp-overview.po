@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, @digisus, @benjaminaaron
+# Copyright (C) 2020, @digisus, @benjaminaaron
 # This file is distributed under the same license as the FIN4Xplorer
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FIN4Xplorer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-17 11:17+0200\n"
+"POT-Creation-Date: 2020-06-17 11:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

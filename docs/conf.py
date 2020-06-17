@@ -19,7 +19,7 @@ master_doc = 'index'
 # -- Project information -----------------------------------------------------
 
 project = 'FIN4Xplorer'
-copyright = '2019, @digisus, @benjaminaaron'
+copyright = '2020, @digisus, @benjaminaaron'
 author = '@digisus, @benjaminaaron'
 
 # The full version, including alpha/beta/rc tags
