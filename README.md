@@ -13,6 +13,8 @@ New commits in this repository trigger a new build there.
 pip install sphinx-intl
 ```
 
+### In the `docs` folder:
+
 To update the `.po` files for the German translation in `docs/locales/de` run:
 
 ```sh
