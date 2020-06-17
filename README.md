@@ -9,6 +9,10 @@ New commits in this repository trigger a new build there.
 
 ## Update translations
 
+```sh
+pip install sphinx-intl
+```
+
 To update the `.po` files for the German translation in `docs/locales/de` run:
 
 ```sh
