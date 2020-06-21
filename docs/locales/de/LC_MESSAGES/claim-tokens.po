@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FIN4Xplorer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-21 15:59+0200\n"
+"POT-Creation-Date: 2020-06-21 16:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,11 +53,17 @@ msgid ""
 " automatically rejected"
 msgstr ""
 
-#: ../../claim-tokens.rst:25
-msgid "Proving"
+#: ../../claim-tokens.rst:24
+msgid ""
+"A click on the filter-icon in the top right corner will open a menu that "
+"allows you to hide or show claims based on their three stages."
 msgstr ""
 
 #: ../../claim-tokens.rst:27
+msgid "Proving"
+msgstr ""
+
+#: ../../claim-tokens.rst:29
 msgid ""
 "For a claim to be successful, all the verifiers specified by the token "
 "creator have to receive proof from the user and get approved - "
@@ -65,27 +71,27 @@ msgid ""
 "submission site might look like this."
 msgstr ""
 
-#: ../../claim-tokens.rst:32
+#: ../../claim-tokens.rst:34
 msgid ""
 "Here, a verifier is shown (*ClaimableOnlyNTimes*) that didn't have to be "
 "initated manually. It belongs to the category of verifiers that "
 "automatically give their approval or rejection once a claim is made."
 msgstr ""
 
-#: ../../claim-tokens.rst:34
+#: ../../claim-tokens.rst:36
 msgid ""
 "Once all verifiers received proofs and are approved, the claim appears as"
 " green and the claimer gets a balance on this token."
 msgstr ""
 
-#: ../../claim-tokens.rst:42
+#: ../../claim-tokens.rst:44
 msgid ""
 "If any verifier of a claim rejectes the provided proof, the entire claim "
 "gets rejected. It is not possible to recover this claim by resubmitting "
 "proofs - a new claim has to be made if the user wants to try again."
 msgstr ""
 
-#: ../../claim-tokens.rst:44
+#: ../../claim-tokens.rst:46
 msgid ""
 "If verifiers depend on the approval of other users, they have a chance to"
 " add a message to the claimer together with their approval or rejection. "

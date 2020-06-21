@@ -19,7 +19,9 @@ Submitting a claim is the first step to obtaining a balance on the token in ques
 - In gray, the rejected state, if one or more of the proofs got manually or automatically rejected
 
 .. image:: images/MyPreviousClaims.png
-   :scale: 35%
+   :scale: 70%
+
+A click on the filter-icon in the top right corner will open a menu that allows you to hide or show claims based on their three stages. 
 
 Proving
 ^^^^^^^
