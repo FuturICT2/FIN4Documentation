@@ -24,14 +24,14 @@ Submitting a claim is the first step to obtaining a balance on the token in ques
 Proving
 ^^^^^^^
 
-For a claim to be successful, all the proofs specified by the token creator have to be provided and get approved - automatically or by the chosen person, group or sensor. A proof submission site might look like this.
+For a claim to be successful, all the verifiers specified by the token creator have to receive proof from the user and get approved - automatically or by the chosen person, group or sensor. A proof submission site might look like this.
 
 .. image:: images/ProofSubmission.png
    :scale: 35%
 
-Here, a proof is shown (*ClaimableOnlyNTimes*) that didn't have to be initated manually. It belongs to the category of proofs that automatically give their approval or rejection once a claim is made.
+Here, a verifier is shown (*ClaimableOnlyNTimes*) that didn't have to be initated manually. It belongs to the category of verifiers that automatically give their approval or rejection once a claim is made.
 
-Once all proofs are provided and approved, the claim appears as green and the claimer gets a balance on this token.
+Once all verifiers received proofs and are approved, the claim appears as green and the claimer gets a balance on this token.
 
 .. image:: images/MyPreviousClaims_approved.png
    :scale: 35%
@@ -39,4 +39,6 @@ Once all proofs are provided and approved, the claim appears as green and the cl
 .. image:: images/Wallet.png
    :scale: 35%
 
-Once any proof of a claim is rejected, the entire claim gets rejected. It is not possible to recover this claim by resubmitting proofs - a new claim has to be made if the user wants to try again.
+If any verifier of a claim rejectes the provided proof, the entire claim gets rejected. It is not possible to recover this claim by resubmitting proofs - a new claim has to be made if the user wants to try again.
+
+If verifiers depend on the approval of other users, they have a chance to add a message to the claimer together with their approval or rejection. This message is displayed on the respective proof submission site.
