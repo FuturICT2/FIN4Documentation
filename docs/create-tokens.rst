@@ -24,7 +24,7 @@ The effort put into creating a token can range from a quick 1-min-clicktrough to
 - Uploading a token draft in JSON format
 - Copying an existing token design as template
 
-The last two will import a token creation draft showing up at the bottom of the box. The first option will take you directly into the token creation wizard. It consists of 5 steps: *Identity*, *Design*, *Actions*, *Minting* and *Proving*. In each step, an info box can be opened that provides explanations.
+The last two will import a token creation draft showing up at the bottom of the box. The first option will take you directly into the token creation wizard. It consists of 6 steps: *Token identity*, *Token design*, *Action policy*, *Minting policy*, *Noninteractive verifiers* and *Interactive verifiers*. In each step, an info box can be opened that provides explanations.
 
 .. image:: images/WizardSteps.png
    :scale: 37%
@@ -32,4 +32,4 @@ The last two will import a token creation draft showing up at the bottom of the 
 
 Note that at any point you can leave the wizard and your progess will be stored as draft. Drafts can be used to resume the process later on or to download, share and import them.
 
-Once the 5 steps are completed, the token can be created on the blockchain. One ore more transactions have to be confirmed for that. One for the token-creation itself and one for each proof that has parameters. Until all proof-parameterization transactions are confirmed, the token will remain in a disabled state.
+Once the 6 steps are completed, the token can be created on the blockchain. Two ore more transactions have to be confirmed for that. Two for the token-creation itself and one for each proof that has parameters. Until all proof-parameterization transactions are confirmed, the token will remain in a disabled state.
