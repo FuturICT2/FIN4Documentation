@@ -48,7 +48,7 @@ Editing a group as owner comprises the options to add or remove members and to t
 Token collections
 ^^^^^^^^^^^^^^^^^
 
-Token collections are a way to curate a list of tokens with a much lower effort then the `token curated registry <#token-curation>`_.
+Token collections are a way to curate a list of tokens with a much lower effort then the community-curated approach of the `token curated registry <#token-curation>`_.
 
 .. image:: images/Collections.png
    :scale: 80%
@@ -73,7 +73,6 @@ Inbox
 *Your messages* shows all messages sent to you. These can be
 
 - Proof contracts notifying you about pending approvals: for you directly or a group you are a member of
-- Reasons why a proof you submitted got rejected
 - System notifications like a user leaving a group you created
 - Messages from other users
 
@@ -87,40 +86,10 @@ If you get a new message while being on the DApp, the notification bell in the t
 Token curation
 ~~~~~~~~~~~~~~
 
-*Token curation* takes you to the Token Curated Registry (TCR). Here, anyone with enough *Governance Tokens* (GOV) can participate in curating a list of "official positive action tokens" (OPAT). Users can propose tokens to be voted into the listing as well as challenge them once they are in it.
+The token curation feature (Token Curated Registry, TCR) is currently disabled. If you are interested how it would look like, see the previous version of this documentation. 
 
-.. image:: images/TokenCuration.png
-   :scale: 80%
+Sources of value
+~~~~~~~~~~~~~~~~
 
-Listing
-^^^^^^^
-
-Listing is the central place of the TCR, here, the curation of OPATs is happening. After applying a token to the listing that is not already on it, a voting period starts where users can vote for taking it in or not. Only in the reveal period where votes can't be changed anymore it will become public what users voted for, not before. Depending on the quorum parameter as can be seen under `Parameters`_ the majority of votes decide what happens. If a token makes it onto the listing, it can be challenged. This triggers another vote/reveal procedure which results in kicking the token off the listing or keeping it. The proposer or challenger has to put GOV on stake and gets rewarded if the vote turns out in their favor or looses GOV if it does not.
-
-To participate in these procedures, a user must have sufficient GOV. This can be claimed under `Management`_ from *Reputation Tokens* (REP) beyond a certain threshold.
-
-.. image:: images/Listing.png
-   :scale: 30%
-
-Tokens on the listing will be displayed with a star icon in the list of all `tokens <dapp-overview.html#tokens>`_.
-
-.. image:: images/TokensWithOPAT.png
-   :scale: 35%
-
-Management
-^^^^^^^^^^
-
-Here, users can claim GOV from REP if they are above a certain threshold. This claiming can be repeated once the user spends GOV and falls below the amount they have as REP.
-
-The other functionality here is to delegate some of your GOV to a user of your choosing and see how much GOV in total was delegated to you, if any. The idea being that an user might trust another user to participate in governance procedures on their behalf because they are for instance more competent in a certain topic. Unlike all other token transfers, this amount can be refunded from the sender. 
-
-.. image:: images/Management.png
-   :scale: 30%
-
-Parameters
-^^^^^^^^^^
-
-Similar to collectively deciding if a token should be on the listing or not, the parameters of the system as a whole can be changed collectively. The procedure is similar and involves proposing a new value for a parameter, followed by vote and reveal phase after which the new value is accepted or rejected. The GOV required to put on stake for a proposed reparameterization are much higher then those for proposing a token. The idea being that reparameterizations should happen very rarely and only if a proposer is "serious" about it.
-
-.. image:: images/Parameters.png
-   :scale: 35%
+In an upcoming version we will activate a new feature we are working on. It will allow token creators to attach underlying sources of value to their token. This could be Bitcoin-bac
+ked ERC20 tokens, other tokens with special properties or just free text for something the token creator promises off-chain to redeem a token for.
