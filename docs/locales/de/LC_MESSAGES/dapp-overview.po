@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FIN4Xplorer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-17 11:53+0200\n"
+"POT-Creation-Date: 2020-06-21 15:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,8 +38,8 @@ msgstr ""
 
 #: ../../dapp-overview.rst:14
 msgid ""
-"The three icons in the top bar are for showing the users QR code, "
-"reloading the page and for getting notified about new messages."
+"The icons in the top bar are for showing pending transactions, the users "
+"QR code, reloading the page and for getting notified about new messages."
 msgstr ""
 
 #: ../../dapp-overview.rst:16
@@ -78,4 +78,11 @@ msgid ""
 "More info about the claiming process can be found in `Claim tokens "
 "<claim-tokens.html>`_."
 msgstr ""
+
+#~ msgid ""
+#~ "The three icons in the top bar "
+#~ "are for showing the users QR code,"
+#~ " reloading the page and for getting"
+#~ " notified about new messages."
+#~ msgstr ""
 
