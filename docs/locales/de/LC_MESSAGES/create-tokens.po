@@ -4,23 +4,26 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: FIN4Xplorer \n"
+"Project-Id-Version: FIN4Xplorer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-21 15:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-23 08:41+0000\n"
+"Last-Translator: Benjamin Degenhart <b.degenhart.work@gmail.com>\n"
+"Language-Team: create_TOKENS (generated) <http://18.157.108.79/projects/fin4/"
+"documentation/create_TOKENS/>\n"
+"Language: create-tokens\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.3\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../create-tokens.rst:4
 msgid "Create tokens"
-msgstr ""
+msgstr "Tokens erstellen"
 
 #: ../../create-tokens.rst:12
 msgid ""
@@ -34,10 +37,19 @@ msgid ""
 "supports the ERC-20 standard. Note that also in such apps you have to "
 "switch to the Rinkeby testnet."
 msgstr ""
+"Die Möglichkeit für jeden, neue Token auf der FIN4Xplorer-Plattform zu "
+"erstellen, steht im Mittelpunkt seines Konzepts. Sobald ein Token erstellt "
+"wurde, kann es von jedem beansprucht werden. Ein erfolgreicher Anspruch "
+"führt zu einem Saldo auf dem jeweiligen Token. Da wir unsere Token-Verträge "
+"auf dem `ERC-20 standard <https://en.wikipedia.org/wiki/"
+"Ethereum#Development_governance_and_EIP>`_ basieren, wird dieser Kontostand "
+"in jeder digitalen Ethereum-Wallet-App angezeigt, die den ERC-20-Standard "
+"unterstützt . Beachten Sie, dass Sie auch in solchen Apps zum Rinkeby-"
+"Testnetz wechseln müssen."
 
 #: ../../create-tokens.rst:15
 msgid "Token creation wizard"
-msgstr ""
+msgstr "Assistent zur Token-Erstellung"
 
 #: ../../create-tokens.rst:21
 msgid ""
@@ -45,18 +57,22 @@ msgid ""
 "clicktrough to a lengthy eloborate planning in a multi-disciplinary team."
 " The possible entry points for the token creation process are:"
 msgstr ""
+"Der Aufwand für die Erstellung eines Tokens kann von einem schnellen 1"
+"-Minuten-Klick bis zu einer langwierigen Planung in einem multidisziplinären "
+"Team reichen. Die möglichen Einstiegspunkte für den Token-Erstellungsprozess "
+"sind:"
 
 #: ../../create-tokens.rst:23
 msgid "Creating a new token from scratch"
-msgstr ""
+msgstr "Erstellen eines neuen Tokens von Grund auf neu"
 
 #: ../../create-tokens.rst:24
 msgid "Uploading a token draft in JSON format"
-msgstr ""
+msgstr "Hochladen eines Token-Entwurfs im JSON-Format"
 
 #: ../../create-tokens.rst:25
 msgid "Copying an existing token design as template"
-msgstr ""
+msgstr "Kopieren eines vorhandenen Token-Designs als Vorlage"
 
 #: ../../create-tokens.rst:27
 msgid ""
@@ -67,6 +83,12 @@ msgid ""
 "and *Interactive verifiers*. In each step, an info box can be opened that"
 " provides explanations."
 msgstr ""
+"Die letzten beiden importieren einen Entwurf zur Token-Erstellung, der am "
+"unteren Rand des Felds angezeigt wird. Die erste Option führt Sie direkt zum "
+"Assistenten zum Erstellen von Token. Es besteht aus 6 Schritten: *Token-"
+"Identität*, *Token-Design*, *Aktionsrichtlinie*, *Münzrichtlinie*, *Nicht "
+"interaktive Verifizierer* und *Interaktive Verifizierer*. In jedem Schritt "
+"kann eine Infobox geöffnet werden, die Erklärungen enthält."
 
 #: ../../create-tokens.rst:33
 msgid ""
@@ -74,6 +96,10 @@ msgid ""
 "stored as draft. Drafts can be used to resume the process later on or to "
 "download, share and import them."
 msgstr ""
+"Beachten Sie, dass Sie den Assistenten jederzeit verlassen können und Ihr "
+"Fortschritt als Entwurf gespeichert wird. Entwürfe können verwendet werden, "
+"um den Vorgang später fortzusetzen oder um sie herunterzuladen, freizugeben "
+"und zu importieren."
 
 #: ../../create-tokens.rst:35
 msgid ""
@@ -83,6 +109,11 @@ msgid ""
 " Until all proof-parameterization transactions are confirmed, the token "
 "will remain in a disabled state."
 msgstr ""
+"Sobald die 6 Schritte abgeschlossen sind, kann das Token in der Blockchain "
+"erstellt werden. Dafür müssen zwei oder mehr Transaktionen bestätigt werden. "
+"Zwei für die Token-Erstellung selbst und eine für jeden Proof mit "
+"Parametern. Bis alle Proof-Parametrisierungstransaktionen bestätigt sind, "
+"bleibt der Token deaktiviert."
 
 #~ msgid ""
 #~ "The last two will import a token"
@@ -107,4 +138,3 @@ msgstr ""
 #~ " transactions are confirmed, the token "
 #~ "will remain in a disabled state."
 #~ msgstr ""
-

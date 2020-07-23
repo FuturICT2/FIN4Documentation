@@ -4,27 +4,30 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: FIN4Xplorer \n"
+"Project-Id-Version: FIN4Xplorer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-21 15:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-23 11:09+0000\n"
+"Last-Translator: Benjamin Degenhart <b.degenhart.work@gmail.com>\n"
+"Language-Team: dapp_OVERVIEW (generated) <http://18.157.108.79/projects/fin4/"
+"documentation/dapp_OVERVIEW/>\n"
+"Language: dapp-overview\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.3\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../dapp-overview.rst:2
 msgid "Application overview"
-msgstr ""
+msgstr "Applikationsübersicht"
 
 #: ../../dapp-overview.rst:5
 msgid "Home"
-msgstr ""
+msgstr "Startseite"
 
 #: ../../dapp-overview.rst:7
 msgid "*Home* acts as landing page and is the central place of the DApp."
@@ -85,4 +88,3 @@ msgstr ""
 #~ " reloading the page and for getting"
 #~ " notified about new messages."
 #~ msgstr ""
-
